@@ -1,0 +1,44 @@
+book_filename: "rhi-recipe"
+chapter_name: ""
+repo: https://github.com/statsrhian/recipes
+output_dir: docs
+new_session: yes
+delete_merged_file: true
+
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "My recipes"
+  author: "Rhian Davies"
+  chapters:
+  - index.qmd
+  - breakfast.qmd
+  - part: "Main Meals"
+    chapters:
+      - soup.qmd
+      - pasta.qmd
+      - curry.qmd
+      - noodles.qmd
+      - rice.qmd
+      - stews.qmd
+      - mexican.qmd
+      - moroccan.qmd
+      - salads.qmd
+  - part: "Desserts"
+    chapters:
+      - cakes.qmd
+      - loaf-cakes.qmd
+      - puddings.qmd
+      - biscuits.qmd
+      - tray-bakes.qmd 
+  - part: "Miscellaneous"
+    chapters:
+      - bread.qmd
+      - sauces.qmd
+
+format:
+  html:
+    theme: cosmo
+    

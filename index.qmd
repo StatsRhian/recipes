@@ -1,0 +1,7 @@
+# Introduction {-}
+
+This bookdown contains recipes that that I sometimes cook.
+
+```{r carrotcake, out.width = "500px", echo = FALSE}
+knitr::include_graphics("images/carrot-cake.png")
+```

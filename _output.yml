@@ -1,8 +1,0 @@
-bookdown::gitbook:
-  css: style.css
-  split_by: chapter
-  config:
-    toc:
-      collapse: section
-      before: |
-        <li><a href="./">Jedrhi's recipes</a></li>
