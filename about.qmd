@@ -4,22 +4,6 @@ image: profile.jpg
 theme: minty
 about:
   template: jolla
-  links:
-    - icon: web
-      text: Website
-      href: https://rhian.rbind.io
-    - icon: github
-      text: Github
-      href: https://github.com/statsrhian
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/statsrhian/
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/statsrhian
-
-
-
 ---
 
 I'd rather be coding than cooking.
