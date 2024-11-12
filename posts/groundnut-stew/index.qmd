@@ -10,6 +10,7 @@ categories: [vegan]
 - 2cm ginger
 - 1 chilli
 - 50g peanut butter
+- time profile
 - 1 tin of tomatoes
 - 400ml veg stock
 - coriander
