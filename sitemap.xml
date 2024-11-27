@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://StatsRhian.github.io/recipes/posts/groundnut-stew/index.html</loc>
-    <lastmod>2024-11-12T17:16:33.409Z</lastmod>
-  </url>
-  <url>
-    <loc>https://StatsRhian.github.io/recipes/about.html</loc>
-    <lastmod>2024-11-12T17:16:33.405Z</lastmod>
+    <loc>https://StatsRhian.github.io/recipes/posts/smoky-halloumi-pasta-bake/index.html</loc>
+    <lastmod>2024-11-27T17:20:10.679Z</lastmod>
   </url>
   <url>
     <loc>https://StatsRhian.github.io/recipes/index.html</loc>
-    <lastmod>2024-11-12T17:16:33.405Z</lastmod>
+    <lastmod>2024-11-27T17:20:10.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/recipes/about.html</loc>
+    <lastmod>2024-11-27T17:20:10.671Z</lastmod>
+  </url>
+  <url>
+    <loc>https://StatsRhian.github.io/recipes/posts/groundnut-stew/index.html</loc>
+    <lastmod>2024-11-27T17:20:10.679Z</lastmod>
   </url>
 </urlset>

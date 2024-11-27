@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "posts/groundnut-stew/index.html",
-    "href": "posts/groundnut-stew/index.html",
-    "title": "Groundnut Stew",
+    "objectID": "posts/smoky-halloumi-pasta-bake/index.html",
+    "href": "posts/smoky-halloumi-pasta-bake/index.html",
+    "title": "Smoky Halloumi Pasta Bake",
     "section": "",
-    "text": "1kg sweet potatoes 1cm slices\n1 onion\n2 cloves garlic\n2cm ginger\n1 chilli\n50g peanut butter\ntime profile\n1 tin of tomatoes\n400ml veg stock\ncoriander\nsalted peanuts\n\n\nPreheat oven 180 fan\nMix sweet potatoes, onion, garlic chill in roasting tin with oil and sea salt. Roast for 45 min\nAdd chopped toms, peanut butter and stock back into oven for 15 min\nServe with rice, coriander and peanuts"
+    "text": "300g pasta\n2 cloves garlic\n1 onion\n2 tsp smoky paprika\n250g halloumi\n1 large courgette\n150g cheddar\n2 tins chopped tomatos\n\n\nPreheat oven 180 fan\nCook pasta for 5 minutes and drain\nFry onion, garlic and 1 tsp paprika\nAdd cubed halloumi & courgette\nPut pasta, chopped tomatos and veg in a baking tin\nTopped with grated cheese and 1 tsp paprika\nBake for 10 minutes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Recipes",
+    "section": "",
+    "text": "Groundnut Stew\n\n\n\n\n\n\nvegan\n\n\n\n\n\n\n\n\n\nRukmini Iyer\n\n\n\n\n\n\n\n\n\n\n\n\nSmoky Halloumi Pasta Bake\n\n\n\n\n\n\npasta\n\n\n\n\n\n\n\n\n\nEmily Leary\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -14,10 +21,10 @@
     "text": "I’d rather be coding than cooking."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Recipes",
+    "objectID": "posts/groundnut-stew/index.html",
+    "href": "posts/groundnut-stew/index.html",
+    "title": "Groundnut Stew",
     "section": "",
-    "text": "Groundnut Stew\n\n\n\n\n\n\nvegan\n\n\n\n\n\n\n\n\n\nRukmini Iyer\n\n\n\n\n\n\nNo matching items"
+    "text": "1kg sweet potatoes 1cm slices\n1 onion\n2 cloves garlic\n2cm ginger\n1 chilli\n50g peanut butter\ntime profile\n1 tin of tomatoes\n400ml veg stock\ncoriander\nsalted peanuts\n\n\nPreheat oven 180 fan\nMix sweet potatoes, onion, garlic chill in roasting tin with oil and sea salt. Roast for 45 min\nAdd chopped toms, peanut butter and stock back into oven for 15 min\nServe with rice, coriander and peanuts"
   }
 ]
