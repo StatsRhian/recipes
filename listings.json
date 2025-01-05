@@ -2,8 +2,38 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/butter-bean-stew/index.html",
+      "/posts/houmous/index.html",
+      "/posts/dark-banana-ginger-bread/index.html",
+      "/posts/bara-brith/index.html",
+      "/posts/lemon-cake/index.html",
+      "/posts/cauliflower-chickpeas-tahini/index.html",
+      "/posts/carrot-cake/index.html",
+      "/posts/date-walnut-loaf/index.html",
+      "/posts/peanut-sauce/index.html",
+      "/posts/carrot-lentil-soup/index.html",
+      "/posts/chilli-sauce/index.html",
       "/posts/groundnut-stew/index.html",
-      "/posts/smoky-halloumi-pasta-bake/index.html"
+      "/posts/lentil-pasta/index.html",
+      "/posts/hot-sour-soup/index.html",
+      "/posts/one-a-day-cookies/index.html",
+      "/posts/mega-flapjack/index.html",
+      "/posts/spinach-sweet-potato-lentil-dahl/index.html",
+      "/posts/chocolate-brownies/index.html",
+      "/posts/moong-dahl/index.html",
+      "/posts/aubergine-chickpea-curry/index.html",
+      "/posts/sweet-potato-macaroni/index.html",
+      "/posts/lentil-lasagne/index.html",
+      "/posts/asparagus-chilli-feta/index.html",
+      "/posts/moroccan-spiced-chickpeas/index.html",
+      "/posts/banana-bread/index.html",
+      "/posts/rice-and-peas/index.html",
+      "/posts/red-thai-curry/index.html",
+      "/posts/smoky-halloumi-pasta-bake/index.html",
+      "/posts/mango-chutney-halloumi-sweet-potato-dahl/index.html",
+      "/posts/anzac-biscuits/index.html",
+      "/posts/sweetcorn-squash-black-bean-feta/index.html",
+      "/posts/bean-chilli/index.html"
     ]
   }
 ]
