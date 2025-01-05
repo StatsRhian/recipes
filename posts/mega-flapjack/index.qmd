@@ -1,0 +1,20 @@
+---
+title: "Mega flapjack"
+author: "Jack Kennedy"
+categories: [bars]
+description: "A Kennedy classic, for fueling bike rides"
+---
+
+- 250g jumbo oats
+- 125g butter
+- 125g light brown sugar
+- 3 tbsp golden syrup
+- handful of raisins / sultanas (optional)
+
+1. Melt butter in pan
+1. Add sugar and mix until disolved
+1. Add golden syrup, raisins and oats
+1. Mix well, transfer to lined tray
+1. Bake at 180C fan for 12 min
+
+![](flapjack.jpg)

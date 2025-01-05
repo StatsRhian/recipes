@@ -1,7 +1,9 @@
 ---
-title: "Smoky Halloumi Pasta Bake"
-author: "Emily Leary"
+title: "Smoky halloumi pasta bake"
+author: "[Emily Leary](https://www.amummytoo.co.uk/smokey-halloumi-pasta-bake-recipe/)"
 categories: [pasta]
+description: "A cheesy, comforting pasta bake"
+
 ---
 
 - 300g pasta

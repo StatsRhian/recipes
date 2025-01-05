@@ -1,7 +1,6 @@
 ---
 title: "About"
 image: profile.jpg
-theme: minty
 about:
   template: jolla
 ---

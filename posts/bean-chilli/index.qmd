@@ -1,0 +1,33 @@
+---
+title: "Bean chilli"
+author: "James Edwards"
+categories: [mexican, vegan]
+description: "Simple bean & veggie chilli. Goes well with tortilla chips and guacamole."
+---
+
+* 1 tin kidney beans
+* 1 tin black eyed beans 
+* 1 large carrot
+* 1 stick celery
+* 1 onion
+* 1 clove
+* 1 red chilli
+* 1 tbsp tomato puree
+* 1 tsp ground cumin
+* 1 tsp ground coriander
+* 1 bay leaf
+* 1 cinnamon stick
+* 1 tsp smoked paprika
+* 1 tsp soy sauce
+* 1 tin of tomatoes
+* 1 pepper (frozen?)
+* Fresh coriander
+
+1. Fry carrot, celery, onion, garlic, chilli in oil.
+1. Add tomato puree, cumin, coriander, bay, cinnamon, paprika.
+1. Add chopped toms, peppr and soy. Simmer and cook on low for 20 min.
+1. Add beans, simmer, cook for 15 min. 
+
+Serve with rice, guac, sour cream, cheese and tortilla chips.
+
+![](chilli.jpg)
