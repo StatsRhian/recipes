@@ -1,16 +1,17 @@
 ---
 title: "Groundnut Stew"
-author: "Rukmini Iyer"
-categories: [vegan]
+author: "[Rukmini Iyer
+](https://g.co/kgs/HFDagrP)"
+categories: [african, vegan]
+descrtipion: "Comforting and warming"
 ---
 
-- 1kg sweet potatoes 1cm slices
+- 1kg sweet potatoes in 1cm slices
 - 1 onion
 - 2 cloves garlic
 - 2cm ginger
 - 1 chilli
 - 50g peanut butter
-- time profile
 - 1 tin of tomatoes
 - 400ml veg stock
 - coriander

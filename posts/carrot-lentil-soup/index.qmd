@@ -1,0 +1,26 @@
+---
+title: "Carrot & lentil soup"
+author: "James Edwards"
+categories: [soup]
+description: "My standard winter soup. Nice with coriander and a drizzle of oil"
+---
+
+* 600g peeled carrots
+* 200g red lentils
+* 1 stick celery
+* 1 onion
+* Chunk ginger
+* 2 garlic cloves
+* 2 tsp cumin seeds
+* 1/2 tsp turmeric and coriander
+* Atleast 1L water
+* Fresh coriander
+
+1. Fry seeds
+1. Add onion, garlic, ginger
+1. Add celery and lentils
+1. Add stock
+1. Simmer for 30 min
+1. Blend
+
+![](carrot-soup.jpg)

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Recipes</title>
+<title>Rhi’s recipes - Recipes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +79,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -98,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -139,11 +140,11 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Recipes</span>
+    <span class="navbar-title">Rhi’s recipes</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -164,7 +165,7 @@ window.Quarto = {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+          <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -191,7 +192,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="pasta">pasta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vegan">vegan <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(32)</span></div><div class="category" data-category="african">african <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bars">bars <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biscuits">biscuits <span class="quarto-category-count">(1)</span></div><div class="category" data-category="brownies">brownies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cake">cake <span class="quarto-category-count">(4)</span></div><div class="category" data-category="cakes">cakes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="caribbean">caribbean <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cookies">cookies <span class="quarto-category-count">(1)</span></div><div class="category" data-category="curry">curry <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dahl">dahl <span class="quarto-category-count">(3)</span></div><div class="category" data-category="dips">dips <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mexican">mexican <span class="quarto-category-count">(2)</span></div><div class="category" data-category="moroccan">moroccan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pasta">pasta <span class="quarto-category-count">(5)</span></div><div class="category" data-category="rice">rice <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sauce">sauce <span class="quarto-category-count">(2)</span></div><div class="category" data-category="soup">soup <span class="quarto-category-count">(2)</span></div><div class="category" data-category="stew">stew <span class="quarto-category-count">(1)</span></div><div class="category" data-category="thai">thai <span class="quarto-category-count">(1)</span></div><div class="category" data-category="vegan">vegan <span class="quarto-category-count">(10)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -205,18 +206,174 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="vegan" data-listing-file-modified-sort="1732727419488" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="quarto-post image-right" data-index="0" data-categories="bars" data-listing-file-modified-sort="1736115022212" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
 <div class="thumbnail">
-<p><a href="./posts/groundnut-stew/index.html" class="no-external"></a></p><a href="./posts/groundnut-stew/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\groundnut-stew\groundnut-stew.jpg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/groundnut-stew/index.html" class="no-external"></a></p>
+<p><a href="./posts/mega-flapjack/index.html" class="no-external"></a></p><a href="./posts/mega-flapjack/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/mega-flapjack/flapjack.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/mega-flapjack/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/groundnut-stew/index.html" class="no-external">Groundnut Stew</a>
+<a href="./posts/mega-flapjack/index.html" class="no-external">Mega flapjack</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./posts/groundnut-stew/index.html" class="no-external"></a>
+<a href="./posts/mega-flapjack/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('bars'); return false;">
+bars
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/mega-flapjack/index.html" class="no-external">A Kennedy classic, for fueling bike rides</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/mega-flapjack/index.html" class="no-external"></a></p><a href="./posts/mega-flapjack/index.html" class="no-external">
+<div class="listing-author">
+Jack Kennedy
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="moroccan,vegan" data-listing-file-modified-sort="1736120448258" data-listing-reading-time-sort="1" data-listing-word-count-sort="90">
+<div class="thumbnail">
+<p><a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external"></a></p><a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/moroccan-spiced-chickpeas/moroccan-chickpeas.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external">Moroccan chickpeas</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('moroccan'); return false;">
+moroccan
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external">A staple from when I was a University student</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external"></a></p><a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/moroccan-spiced-chickpeas/index.html" class="no-external">
+</a><a href="https://www.goodreads.com/book/show/6791894-the-ultimate-student-cookbook">Fiona Beckett</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="curry,vegan" data-listing-file-modified-sort="1736120483180" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
+<div class="thumbnail">
+<p><a href="./posts/aubergine-chickpea-curry/index.html" class="no-external"></a></p><a href="./posts/aubergine-chickpea-curry/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/aubergine-chickpea-curry/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/aubergine-chickpea-curry/index.html" class="no-external">Aubergine and chickpea curry</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/aubergine-chickpea-curry/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('curry'); return false;">
+curry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/aubergine-chickpea-curry/index.html" class="no-external">A rich curry with roasted aubergine</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/aubergine-chickpea-curry/index.html" class="no-external"></a></p><a href="./posts/aubergine-chickpea-curry/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/aubergine-chickpea-curry/index.html" class="no-external">
+</a><a href="https://www.thelastfoodblog.com/aubergine-spinach-chickpea-curry/">Michelle Alston</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="cookies" data-listing-file-modified-sort="1736117497775" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<div class="thumbnail">
+<p><a href="./posts/one-a-day-cookies/index.html" class="no-external"></a></p><a href="./posts/one-a-day-cookies/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/one-a-day-cookies/one-a-day.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/one-a-day-cookies/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/one-a-day-cookies/index.html" class="no-external">One-a-day cookies</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/one-a-day-cookies/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cookies'); return false;">
+cookies
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/one-a-day-cookies/index.html" class="no-external">A healthy cookie with wholemeal flour and lots of seeds</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/one-a-day-cookies/index.html" class="no-external"></a></p><a href="./posts/one-a-day-cookies/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/one-a-day-cookies/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/lifeandstyle/2005/sep/24/foodanddrink.shopping5">Dan Lepard</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="pasta" data-listing-file-modified-sort="1736115678592" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+<div class="thumbnail">
+<p><a href="./posts/lentil-lasagne/index.html" class="no-external"></a></p><a href="./posts/lentil-lasagne/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/lentil-lasagne/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/lentil-lasagne/index.html" class="no-external">Puy lentil lasagne</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/lentil-lasagne/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pasta'); return false;">
+pasta
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/lentil-lasagne/index.html" class="no-external">I don’t often bother to make lasagne, but when I do, I make this one</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/lentil-lasagne/index.html" class="no-external"></a></p><a href="./posts/lentil-lasagne/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/lentil-lasagne/index.html" class="no-external">
+</a><a href="https://www.bbc.co.uk/food/recipes/puy_lentil_lasagne_23244">The Hairy Bikers</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="vegan" data-listing-file-modified-sort="1736118090222" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="thumbnail">
+<p><a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external"></a></p><a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/cauliflower-chickpeas-tahini/cauliflower.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external">Roasted cauliflower with chickpeas, spring greens, lemon &amp; tahini</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
@@ -224,38 +381,179 @@ vegan
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/groundnut-stew/index.html" class="no-external">
-<li>1kg sweet potatoes 1cm slices</li>
-<li>1 onion</li>
-<li>2 cloves garlic</li>
-<li>2cm ginger</li>
-<li>1 chilli</li>
-<li>50g peanut butter</li>
-<li>time profile</li>
-<li>1 tin of tomatoes</li>
-<li>400ml veg stock</li>
-<li>coriander</li>
-<li>salted peanuts</li>
-</a>
+<a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external">Easy, one-tin meal that works well in pita bread for lunches</a>
 </div>
 </div>
 <div class="metadata">
-<p><a href="./posts/groundnut-stew/index.html" class="no-external"></a></p><a href="./posts/groundnut-stew/index.html" class="no-external">
+<p><a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external"></a></p><a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/cauliflower-chickpeas-tahini/index.html" class="no-external">
+</a><a href="https://g.co/kgs/HFDagrP">Rukmini Iyer</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="thai" data-listing-file-modified-sort="1736115746864" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<div class="thumbnail">
+<p><a href="./posts/red-thai-curry/index.html" class="no-external"></a></p><a href="./posts/red-thai-curry/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/red-thai-curry/red-thai-curry.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/red-thai-curry/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/red-thai-curry/index.html" class="no-external">Red thai curry with green beans</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/red-thai-curry/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('thai'); return false;">
+thai
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/red-thai-curry/index.html" class="no-external">Originally made with pork, Rich &amp; I used to make this in Wrexham. The palm hearts absorb the thai flavours</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/red-thai-curry/index.html" class="no-external"></a></p><a href="./posts/red-thai-curry/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/red-thai-curry/index.html" class="no-external">
+</a><a href="https://www.bbcgoodfood.com/recipes/red-pork-curry-green-beans">Mary Cadogan</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="cakes" data-listing-file-modified-sort="1736120607400" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
+<div class="thumbnail">
+<p><a href="./posts/lemon-cake/index.html" class="no-external"></a></p><a href="./posts/lemon-cake/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/lemon-cake/lemon-loaf.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/lemon-cake/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/lemon-cake/index.html" class="no-external">Lemon drizzle cake</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/lemon-cake/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cakes'); return false;">
+cakes
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/lemon-cake/index.html" class="no-external">A simple lemon drizzle cake with ground almonds.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/lemon-cake/index.html" class="no-external"></a></p><a href="./posts/lemon-cake/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/lemon-cake/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/lifeandstyle/2008/oct/11/lemon-drizzle-cake">Dan Lepard</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="sauce" data-listing-file-modified-sort="1736118128830" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="thumbnail">
+<p><a href="./posts/peanut-sauce/index.html" class="no-external"></a></p><a href="./posts/peanut-sauce/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/peanut-sauce/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/peanut-sauce/index.html" class="no-external">Peanut sauce</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/peanut-sauce/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sauce'); return false;">
+sauce
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/peanut-sauce/index.html" class="no-external">A sauce for stirfrys</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/peanut-sauce/index.html" class="no-external"></a></p><a href="./posts/peanut-sauce/index.html" class="no-external">
 <div class="listing-author">
-Rukmini Iyer
+James Edwards
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="pasta" data-listing-file-modified-sort="1732727906309" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
+<div class="quarto-post image-right" data-index="9" data-categories="pasta" data-listing-file-modified-sort="1736116695734" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="thumbnail">
+<p><a href="./posts/lentil-pasta/index.html" class="no-external"></a></p><a href="./posts/lentil-pasta/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/lentil-pasta/lentil-ragu.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/lentil-pasta/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/lentil-pasta/index.html" class="no-external">Lentil ragu</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/lentil-pasta/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pasta'); return false;">
+pasta
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/lentil-pasta/index.html" class="no-external">A veggie alternative to spaghetti bolonaise. Works well with linguine pasta.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/lentil-pasta/index.html" class="no-external"></a></p><a href="./posts/lentil-pasta/index.html" class="no-external">
+<div class="listing-author">
+James Edwards
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="mexican,vegan" data-listing-file-modified-sort="1736119999824" data-listing-reading-time-sort="1" data-listing-word-count-sort="106">
+<div class="thumbnail">
+<p><a href="./posts/bean-chilli/index.html" class="no-external"></a></p><a href="./posts/bean-chilli/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/bean-chilli/chilli.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/bean-chilli/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/bean-chilli/index.html" class="no-external">Bean chilli</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/bean-chilli/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('mexican'); return false;">
+mexican
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/bean-chilli/index.html" class="no-external">Simple bean &amp; veggie chilli. Goes well with tortilla chips and guacamole.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/bean-chilli/index.html" class="no-external"></a></p><a href="./posts/bean-chilli/index.html" class="no-external">
+<div class="listing-author">
+James Edwards
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="pasta" data-listing-file-modified-sort="1736120388284" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
 <div class="thumbnail">
 <p><a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external"></a></p><a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">
-<p class="card-img-top"><img src="posts\smoky-halloumi-pasta-bake\smoky-halloumi-pasta-bake.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts/smoky-halloumi-pasta-bake/smoky-halloumi-pasta-bake.jpg"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">Smoky Halloumi Pasta Bake</a>
+<a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">Smoky halloumi pasta bake</a>
 </h3>
 <div class="listing-subtitle">
 <a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external"></a>
@@ -266,30 +564,662 @@ pasta
 </div>
 </div>
 <div class="listing-description">
-<a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">
-<li>300g pasta</li>
-<li>2 cloves garlic</li>
-<li>1 onion</li>
-<li>2 tsp smoky paprika</li>
-<li>250g halloumi</li>
-<li>1 large courgette</li>
-<li>150g cheddar</li>
-<li>2 tins chopped tomatos</li>
-</a>
+<a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">A cheesy, comforting pasta bake</a>
 </div>
 </div>
 <div class="metadata">
 <p><a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external"></a></p><a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/smoky-halloumi-pasta-bake/index.html" class="no-external">
+</a><a href="https://www.amummytoo.co.uk/smokey-halloumi-pasta-bake-recipe/">Emily Leary</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="cake" data-listing-file-modified-sort="1736118357543" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="thumbnail">
+<p><a href="./posts/bara-brith/index.html" class="no-external"></a></p><a href="./posts/bara-brith/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/bara-brith/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/bara-brith/index.html" class="no-external">Bara Brith</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/bara-brith/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
+cake
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/bara-brith/index.html" class="no-external">A traditional Welsh loaf cake. My Aunt Edith’s recipe.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/bara-brith/index.html" class="no-external"></a></p><a href="./posts/bara-brith/index.html" class="no-external">
 <div class="listing-author">
-Emily Leary
+Aunt Edith
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="cake" data-listing-file-modified-sort="1736118509652" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<div class="thumbnail">
+<p><a href="./posts/banana-bread/index.html" class="no-external"></a></p><a href="./posts/banana-bread/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/banana-bread/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/banana-bread/index.html" class="no-external">Banana bread</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/banana-bread/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
+cake
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/banana-bread/index.html" class="no-external">From the Guardian perfect series</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/banana-bread/index.html" class="no-external"></a></p><a href="./posts/banana-bread/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/banana-bread/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/lifeandstyle/wordofmouth/2012/aug/30/how-to-cook-perfect-banana-bread">Felicity Cloake</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="curry,dahl" data-listing-file-modified-sort="1736120334013" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<div class="thumbnail">
+<p><a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external"></a></p><a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/mango-chutney-halloumi-sweet-potato-dahl/halloumi-dahl.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external">Mango chutney halloumi and sweet potato dahl</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('curry'); return false;">
+curry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dahl'); return false;">
+dahl
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external">Seb first made this for me</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external"></a></p><a href="./posts/mango-chutney-halloumi-sweet-potato-dahl/index.html" class="no-external">
+<div class="listing-author">
+Hello Fresh
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="rice,caribbean" data-listing-file-modified-sort="1736118696385" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
+<div class="thumbnail">
+<p><a href="./posts/rice-and-peas/index.html" class="no-external"></a></p><a href="./posts/rice-and-peas/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/rice-and-peas/rice-and-peas.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/rice-and-peas/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/rice-and-peas/index.html" class="no-external">Rice and peas</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/rice-and-peas/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('rice'); return false;">
+rice
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('caribbean'); return false;">
+caribbean
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/rice-and-peas/index.html" class="no-external">From the Guardian perfect series</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/rice-and-peas/index.html" class="no-external"></a></p><a href="./posts/rice-and-peas/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/rice-and-peas/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/lifeandstyle/2015/oct/08/how-to-make-the-perfect-rice-and-peas">Felicity Cloake</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="cakes" data-listing-file-modified-sort="1736120613846" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+<div class="thumbnail">
+<p><a href="./posts/dark-banana-ginger-bread/index.html" class="no-external"></a></p><a href="./posts/dark-banana-ginger-bread/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/dark-banana-ginger-bread/dark-banana-bread.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/dark-banana-ginger-bread/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/dark-banana-ginger-bread/index.html" class="no-external">Dark banana ginger cake</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/dark-banana-ginger-bread/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cakes'); return false;">
+cakes
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/dark-banana-ginger-bread/index.html" class="no-external">An alternative, rich banana bread with dark sugar and ginger </a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/dark-banana-ginger-bread/index.html" class="no-external"></a></p><a href="./posts/dark-banana-ginger-bread/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/dark-banana-ginger-bread/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/lifeandstyle/2012/apr/27/banana-cake-recipes-dan-lepard">Dan Lepard</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="dahl,curry,vegan" data-listing-file-modified-sort="1736119092643" data-listing-reading-time-sort="1" data-listing-word-count-sort="122">
+<div class="thumbnail">
+<p><a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external"></a></p><a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/spinach-sweet-potato-lentil-dahl/dahl.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external">Spinach, sweet potato &amp; lentil dhal</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('dahl'); return false;">
+dahl
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('curry'); return false;">
+curry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external">My standard dahl recipe</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external"></a></p><a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/spinach-sweet-potato-lentil-dahl/index.html" class="no-external">
+</a><a href="https://www.bbcgoodfood.com/recipes/spinach-sweet-potato-lentil-dhal">Sophie Godwin</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="cake" data-listing-file-modified-sort="1736119184644" data-listing-reading-time-sort="1" data-listing-word-count-sort="61">
+<div class="thumbnail">
+<p><a href="./posts/date-walnut-loaf/index.html" class="no-external"></a></p><a href="./posts/date-walnut-loaf/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/date-walnut-loaf/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/date-walnut-loaf/index.html" class="no-external">Date &amp; walnut loaf</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/date-walnut-loaf/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
+cake
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/date-walnut-loaf/index.html" class="no-external">James used to bake this for taking on walks.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/date-walnut-loaf/index.html" class="no-external"></a></p><a href="./posts/date-walnut-loaf/index.html" class="no-external">
+<div class="listing-author">
+Jill Dupleix
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="cake" data-listing-file-modified-sort="1736119305243" data-listing-reading-time-sort="1" data-listing-word-count-sort="118">
+<div class="thumbnail">
+<p><a href="./posts/carrot-cake/index.html" class="no-external"></a></p><a href="./posts/carrot-cake/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/carrot-cake/carrot-cake.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/carrot-cake/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/carrot-cake/index.html" class="no-external">Carrot cake</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/carrot-cake/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('cake'); return false;">
+cake
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/carrot-cake/index.html" class="no-external">Often baked as a birthday cake</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/carrot-cake/index.html" class="no-external"></a></p><a href="./posts/carrot-cake/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/carrot-cake/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/lifeandstyle/2008/aug/02/baking.dessert">Dan Lepard</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="mexican" data-listing-file-modified-sort="1736119365227" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<div class="thumbnail">
+<p><a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external"></a></p><a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/sweetcorn-squash-black-bean-feta/sweetcorn-black-bean.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external">Chipotle roasted sweetcorn with squash, black beans, feta &amp; lime</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('mexican'); return false;">
+mexican
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external">Works well with corn on the cob, or frozen sweetcorn</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external"></a></p><a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/sweetcorn-squash-black-bean-feta/index.html" class="no-external">
+</a><a href="https://g.co/kgs/HFDagrP">Rukmini Iyer</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="african,vegan" data-listing-file-modified-sort="1736119448159" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="thumbnail">
+<p><a href="./posts/groundnut-stew/index.html" class="no-external"></a></p><a href="./posts/groundnut-stew/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/groundnut-stew/groundnut-stew.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/groundnut-stew/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/groundnut-stew/index.html" class="no-external">Groundnut Stew</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/groundnut-stew/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('african'); return false;">
+african
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/groundnut-stew/index.html" class="no-external">
+<li>1kg sweet potatoes in 1cm slices</li>
+<li>1 onion</li>
+<li>2 cloves garlic</li>
+<li>2cm ginger</li>
+<li>1 chilli</li>
+<li>50g peanut butter</li>
+<li>1 tin of tomatoes</li>
+<li>400ml veg stock</li>
+<li>coriander</li>
+<li>salted peanuts</li>
+</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/groundnut-stew/index.html" class="no-external"></a></p><a href="./posts/groundnut-stew/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/groundnut-stew/index.html" class="no-external">
+</a><a href="https://g.co/kgs/HFDagrP">Rukmini Iyer</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-categories="soup" data-listing-file-modified-sort="1736119594044" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="thumbnail">
+<p><a href="./posts/hot-sour-soup/index.html" class="no-external"></a></p><a href="./posts/hot-sour-soup/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/hot-sour-soup/hot-and-sour.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/hot-sour-soup/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/hot-sour-soup/index.html" class="no-external">Hot &amp; Sour soup</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/hot-sour-soup/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
+soup
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/hot-sour-soup/index.html" class="no-external">To clear the sinuses for when you have a cold</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/hot-sour-soup/index.html" class="no-external"></a></p><a href="./posts/hot-sour-soup/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/hot-sour-soup/index.html" class="no-external">
+</a><a href="https://www.nigella.com/recipes/hot-and-sour-soup">Nigella Lawson</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-categories="pasta,vegan" data-listing-file-modified-sort="1736119634522" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
+<div class="thumbnail">
+<p><a href="./posts/sweet-potato-macaroni/index.html" class="no-external"></a></p><a href="./posts/sweet-potato-macaroni/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/sweet-potato-macaroni/macaroni.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/sweet-potato-macaroni/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/sweet-potato-macaroni/index.html" class="no-external">Sweet potato macaroni</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/sweet-potato-macaroni/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pasta'); return false;">
+pasta
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/sweet-potato-macaroni/index.html" class="no-external">Comforting and nutty with a little kick</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/sweet-potato-macaroni/index.html" class="no-external"></a></p><a href="./posts/sweet-potato-macaroni/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/sweet-potato-macaroni/index.html" class="no-external">
+</a><a href="https://www.theguardian.com/food/2020/mar/21/meera-sodhas-vegan-recipe-for-creamy-macaroni-with-sweet-potato-and-gochujang">Meera Sodhas</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="stew,vegan" data-listing-file-modified-sort="1736120554962" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="thumbnail">
+<p><a href="./posts/butter-bean-stew/index.html" class="no-external"></a></p><a href="./posts/butter-bean-stew/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/butter-bean-stew/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/butter-bean-stew/index.html" class="no-external">Leek &amp; butter bean stew</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/butter-bean-stew/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('stew'); return false;">
+stew
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/butter-bean-stew/index.html" class="no-external">A hearty, store cupboard stew for winter</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/butter-bean-stew/index.html" class="no-external"></a></p><a href="./posts/butter-bean-stew/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/butter-bean-stew/index.html" class="no-external">
+</a><a href="https://napolina.com/recipes/butter-bean-stew/">Napolina</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="curry,dahl,vegan" data-listing-file-modified-sort="1736120351406" data-listing-reading-time-sort="1" data-listing-word-count-sort="113">
+<div class="thumbnail">
+<p><a href="./posts/moong-dahl/index.html" class="no-external"></a></p><a href="./posts/moong-dahl/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/moong-dahl/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/moong-dahl/index.html" class="no-external">Everyday moong dahl</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/moong-dahl/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('curry'); return false;">
+curry
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dahl'); return false;">
+dahl
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/moong-dahl/index.html" class="no-external">A simple dahl</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/moong-dahl/index.html" class="no-external"></a></p><a href="./posts/moong-dahl/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/moong-dahl/index.html" class="no-external">
+</a><a href="https://thehappyfoodie.co.uk/recipes/my-everyday-moong-dal/">Madhur Jaffrey</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="sauce" data-listing-file-modified-sort="1736120100190" data-listing-reading-time-sort="1" data-listing-word-count-sort="167">
+<div class="thumbnail">
+<p><a href="./posts/chilli-sauce/index.html" class="no-external"></a></p><a href="./posts/chilli-sauce/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/chilli-sauce/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/chilli-sauce/index.html" class="no-external">Jumbo chilli sauce</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/chilli-sauce/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('sauce'); return false;">
+sauce
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/chilli-sauce/index.html" class="no-external">A mild chili sauce handy for pitas</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/chilli-sauce/index.html" class="no-external"></a></p><a href="./posts/chilli-sauce/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/chilli-sauce/index.html" class="no-external">
+</a><a href="https://www.nigella.com/recipes/jumbo-chilli-sauce">Nigella Lawson</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="27" data-categories="soup" data-listing-file-modified-sort="1736120144444" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="thumbnail">
+<p><a href="./posts/carrot-lentil-soup/index.html" class="no-external"></a></p><a href="./posts/carrot-lentil-soup/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/carrot-lentil-soup/carrot-soup.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/carrot-lentil-soup/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/carrot-lentil-soup/index.html" class="no-external">Carrot &amp; lentil soup</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/carrot-lentil-soup/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('soup'); return false;">
+soup
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/carrot-lentil-soup/index.html" class="no-external">My standard winter soup. Nice with coriander and a drizzle of oil</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/carrot-lentil-soup/index.html" class="no-external"></a></p><a href="./posts/carrot-lentil-soup/index.html" class="no-external">
+<div class="listing-author">
+James Edwards
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="28" data-categories="biscuits" data-listing-file-modified-sort="1736120206093" data-listing-reading-time-sort="1" data-listing-word-count-sort="130">
+<div class="thumbnail">
+<p><a href="./posts/anzac-biscuits/index.html" class="no-external"></a></p><a href="./posts/anzac-biscuits/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/anzac-biscuits/anzac.JPG"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/anzac-biscuits/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/anzac-biscuits/index.html" class="no-external">Anzac biscuits</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/anzac-biscuits/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('biscuits'); return false;">
+biscuits
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/anzac-biscuits/index.html" class="no-external">Oat &amp; coconut biscuits. James and I took these on our Grasmere trip.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/anzac-biscuits/index.html" class="no-external"></a></p><a href="./posts/anzac-biscuits/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/anzac-biscuits/index.html" class="no-external">
+</a><a href="https://www.bbcgoodfood.com/recipes/anzac-biscuits">The Good food team</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="29" data-categories="dips" data-listing-file-modified-sort="1736116616885" data-listing-reading-time-sort="1" data-listing-word-count-sort="31">
+<div class="thumbnail">
+<p><a href="./posts/houmous/index.html" class="no-external"></a></p><a href="./posts/houmous/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/houmous/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/houmous/index.html" class="no-external">Houmous</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/houmous/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('dips'); return false;">
+dips
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/houmous/index.html" class="no-external">A quick dip for lunches</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/houmous/index.html" class="no-external"></a></p><a href="./posts/houmous/index.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="30" data-categories="brownies,vegan" data-listing-file-modified-sort="1736120721338" data-listing-reading-time-sort="1" data-listing-word-count-sort="92">
+<div class="thumbnail">
+<p><a href="./posts/chocolate-brownies/index.html" class="no-external"></a></p><a href="./posts/chocolate-brownies/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/chocolate-brownies/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/chocolate-brownies/index.html" class="no-external">Chocolate brownies</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/chocolate-brownies/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('brownies'); return false;">
+brownies
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('vegan'); return false;">
+vegan
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/chocolate-brownies/index.html" class="no-external">I discovered this one watching<span>Lovely Little Losers</span> on YouTube</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/chocolate-brownies/index.html" class="no-external"></a></p><a href="./posts/chocolate-brownies/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/chocolate-brownies/index.html" class="no-external">
+</a><a href="https://robinrobertson.com/chocolate-surprise-brownies-2/">Robin Robertson</a>
+</div>
+
+</div>
+</div>
+<div class="quarto-post image-right" data-index="31" data-categories="pasta" data-listing-file-modified-sort="1736114737338" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
+<div class="thumbnail">
+<p><a href="./posts/asparagus-chilli-feta/index.html" class="no-external"></a></p><a href="./posts/asparagus-chilli-feta/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/asparagus-chilli-feta/asparagus-feta.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/asparagus-chilli-feta/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/asparagus-chilli-feta/index.html" class="no-external">Asparagus, chilli &amp; feta farfalle</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/asparagus-chilli-feta/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('pasta'); return false;">
+pasta
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/asparagus-chilli-feta/index.html" class="no-external">A summery pasta dish. Alice first cooked this for me.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/asparagus-chilli-feta/index.html" class="no-external"></a></p><a href="./posts/asparagus-chilli-feta/index.html" class="no-external">
+</a><div class="listing-author"><a href="./posts/asparagus-chilli-feta/index.html" class="no-external">
+</a><a href="https://www.bbcgoodfood.com/recipes/asparagus-chilli-feta-farfalle">Sophie Godwin</a>
+</div>
+
 </div>
 </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -326,7 +1256,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const onCopySuccess = function(e) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -358,47 +1299,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
   });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -433,11 +1334,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
