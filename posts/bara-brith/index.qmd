@@ -1,7 +1,7 @@
 ---
 title: "Bara Brith"
 author: "Aunt Edith"
-categories: [cake]
+categories: [cakes]
 description: "A traditional Welsh loaf cake. My Aunt Edith's recipe."
 ---
 

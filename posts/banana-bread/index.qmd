@@ -1,7 +1,7 @@
 ---
 title: "Banana bread"
 author: "[Felicity Cloake](https://www.theguardian.com/lifeandstyle/wordofmouth/2012/aug/30/how-to-cook-perfect-banana-bread)"
-categories: [cake]
+categories: [cakes]
 description: "From the Guardian perfect series"
 ---
 

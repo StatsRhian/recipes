@@ -2,7 +2,7 @@
 title: "Groundnut Stew"
 author: "[Rukmini Iyer
 ](https://g.co/kgs/HFDagrP)"
-categories: [african, vegan]
+categories: [african, stew, vegan]
 descrtipion: "Comforting and warming"
 ---
 
