@@ -115,5 +115,14 @@
   },
   "posts/houmous/index.qmd": {
     "index.html": "4ef8b827"
+  },
+  "posts/gochujang-noodles/index.qmd": {
+    "index.html": "0072a704"
+  },
+  "posts/green-eggs/green-eggs.qmd": {
+    "green-eggs.html": "5058b9d5"
+  },
+  "posts/smoky-tofu-tortillas/index.qmd": {
+    "index.html": "4c4140ad"
   }
 }
