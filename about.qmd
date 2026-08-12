@@ -5,4 +5,4 @@ about:
   template: jolla
 ---
 
-I'd rather be coding than cooking.
+I'd rather be coding than cooking. It's much more fun!
